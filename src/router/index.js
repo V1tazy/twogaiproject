@@ -3,6 +3,7 @@ import AuthForm from '../components/AuthForm/AuthForm.vue';
 import MainPage from '../view/MainView.vue'; // Создайте или добавьте вашу главную страницу
 import SalaryView from '../view/SalaryView.vue';
 import AdminView from '../view/AdminView.vue'
+import ShiftView from '../view/ShiftView.vue';
 
 const routes = [
   {
@@ -27,6 +28,12 @@ const routes = [
     name: 'AdminView',
     component: AdminView,
     meta: {requiresAuth: true, }
+  },
+  {
+    path: '/main/shift',
+    name: 'ShiftView',
+    component: ShiftView,
+    meta: {requiresAuth: true}
   }
 ];
 

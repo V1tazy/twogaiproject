@@ -32,7 +32,7 @@ onMounted(async () => {
     <h1 class="text-lg font-semibold">Dodo IS → Кабинет сотрудника</h1>
     <nav class="space-x-4">
       <RouterLink class="text-sm hover:underline" to="/main">Мои возможности</RouterLink>
-      <RouterLink class="text-sm hover:underline" to="/main/">График</RouterLink>
+      <RouterLink class="text-sm hover:underline" to="/main/shift">График</RouterLink>
       <RouterLink class="text-sm hover:underline" to="/main/salary">Зарплата</RouterLink>
     </nav>
     <div class="flex items-center space-x-2">
